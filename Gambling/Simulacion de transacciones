@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulacion de Transacciones</title>
+</head>
+
+<body>
+  <h2>Transacciones del Casino</h2>
+
+  <h3>Saldo actual: $0.00</h3>
+
+  <h3>Depositar</h3>
+  <form>
+    <label for="deposito">Monto a depositar:</label><br>
+    <input type="number" id="deposito" name="deposito"><br><br>
+    <button type="submit">Depositar</button>
+  </form>
+
+  <hr>
+
+  <h3>Retirar</h3>
+  <form>
+    <label for="retiro">Monto a retirar:</label><br>
+    <input type="number" id="retiro" name="retiro"><br><br>
+    <button type="submit">Retirar</button>
+  </form>
+
+  <hr>
+
+  <h3>Historial de transacciones</h3>
+  <ul>
+    <li>+ Se depositaron $100.00</li>
+    <li>- Se retiraron $5000.00</li>
+  </ul>
+</body>
+</html>
