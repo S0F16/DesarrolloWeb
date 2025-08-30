@@ -110,4 +110,138 @@ div.modulo{
 
 div.tituloModulo{
 
+
+}
+
+/*Para simulacionDeTransacciones y perfil*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #121212; 
+    color: #fff; 
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #eb3926; 
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #ffffff; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.userInfo, .balance, .transacciones, .deposito, .retiro, .historialTransacciones, .ruleta, .Saldo {
+    background: #1e1e1e; 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    max-width: 800px;
+    color: #fff; 
+}
+
+
+.balance p {
+    font-size: 26px;
+    font-weight: bold;
+    color: #e74c3c; 
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: #fff; 
+}
+
+th {
+    background-color: #333;
+    color: #e74c3c; 
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+tr:hover {
+    background-color: #444;
+}
+
+input, button .deposito, button.retiro {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+input {
+    width: 90%;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.ruleta a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.ruleta a:hover {
+    background-color: #c0392b;
+}
+
+.historialTransacciones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.historialTransacciones li {
+    padding: 8px;
+    border-bottom: 1px solid #444;
+    color: #fff;
 }
