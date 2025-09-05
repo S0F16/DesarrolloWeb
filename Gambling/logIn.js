@@ -1,3 +1,4 @@
+/*aun no javaScript
 class people{
     constructor(name, password){
         this.name=name;
@@ -23,3 +24,4 @@ function submit(){
         document.getElementById("introduction").innerText = p1.introduction();
     }
 }
+*/
